@@ -9,9 +9,29 @@
 
 
 
+.custom-shape-divider-bottom-1733299623 .shape-fill {
+    fill: #404041;
+}
 
 
-
+.picture-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:10px;
+    place-items: center;
+    
+   
+    
+  }
+  
+  .picture-grid img {
+    width: 50%;
+    height:170px;
+    border-radius: 40px 100% 100% 100%;
+    
+    
+  
+  }
 
 
 
@@ -39,6 +59,7 @@
                 gap:10px;
                 text-align: center;
                 justify-content: center;
+
             
 }
 
@@ -48,14 +69,36 @@
     
    }
 
-   #gros{
-    display:none;
-   }
-
-   #exampleFormControlInput1{
    
+
+   
+
+    .picture-grid {
+        display: flex;
+        overflow-x: scroll; /* Enables horizontal scrolling */
+        gap: 10px;
+        scroll-behavior: smooth; /* Smooth scrolling effect */
+      }
     
-   }
+      .picture-grid::-webkit-scrollbar {
+        height: 8px; /* Height of the horizontal scrollbar */
+      }
+    
+      .picture-grid::-webkit-scrollbar-thumb {
+        background-color: #404041; /* Color of the scrollbar thumb */
+        border-radius: 4px;     /* Rounded corners */
+      }
+    
+      .picture-grid::-webkit-scrollbar-track {
+        background-color: #f1f1f1; /* Color of the scrollbar track */
+      }
+    
+      .picture-grid img {
+        flex: 0 0 auto;  /* Prevent shrinking */
+        width: 60%;     /* Adjust based on design */
+        height: 150px;   /* Example height */
+      }
+    
 
 }
 
@@ -78,7 +121,7 @@
         white-space:nowrap;
        }
 
-       #gros{
-        display:none;
-       }
+      
+
+       
    }
