@@ -6,12 +6,22 @@
     
     
 }
-
+#explorebutton{
+  width:30%;
+}
 
 
 .custom-shape-divider-bottom-1733299623 .shape-fill {
     fill: #404041;
 }
+
+
+
+
+
+
+
+
 
 
 .picture-grid {
@@ -32,6 +42,7 @@
     
   
   }
+  
 
 
 
@@ -62,6 +73,22 @@
 
             
 }
+#explorebutton{
+  width:80%;
+}
+
+#gojo{
+
+}
+#jjk{
+
+}
+
+#divine{
+
+}
+
+
 
 #firstsentense{
     font-size:32px;
