@@ -15,8 +15,27 @@
     fill: #404041;
 }
 
+.firstrowbot{
+  display:flex;
+place-content:center;
+  gap:17px;
+}
+.firstrowbot1{
+  display:flex;
+place-content:center;
+  gap:17px;}
 
-
+.btn2,.btn3,.btn4,.btn5,.btn6,.btn7{
+  width:10%;
+  height:50px;
+  border-radius:100px;
+}
+#hhh{
+  /* background-image: url('voltt.webp');
+  background-size: 100% 150px;
+  background-position:center;
+  background-repeat: no-repeat; */
+}
 
 
 
@@ -88,7 +107,19 @@
 
 }
 
+.firstrowbot{
+  display: block;
+  text-align: center;
+}
 
+.firstrowbot1{
+  display: block;
+  text-align: center;
+}
+
+.btn2,.btn3,.btn4,.btn5,.btn6,.btn7{
+  width:15%;
+}
 
 #firstsentense{
     font-size:32px;
@@ -96,6 +127,7 @@
     
    }
 
+   
   
    
 
