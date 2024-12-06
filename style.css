@@ -109,17 +109,18 @@ place-content:center;
 
 .firstrowbot{
   display: block;
-  text-align: center;
+
+
 }
 
 .firstrowbot1{
   display: block;
-  text-align: center;
+  
 }
 
 .btn2,.btn3,.btn4,.btn5,.btn6,.btn7{
-  width:15%;
-}
+  width:100%;
+} 
 
 #firstsentense{
     font-size:32px;
