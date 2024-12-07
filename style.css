@@ -30,12 +30,7 @@ place-content:center;
   height:50px;
   border-radius:100px;
 }
-#hhh{
-  /* background-image: url('voltt.webp');
-  background-size: 100% 150px;
-  background-position:center;
-  background-repeat: no-repeat; */
-}
+
 
 
 
@@ -91,6 +86,9 @@ place-content:center;
                 justify-content: center;
 
             
+}
+.kill{
+  display:grid;
 }
 #explorebutton{
   width:80%;
@@ -159,6 +157,12 @@ place-content:center;
       }
     
 
+
+     
+
+
+      
+
 }
 
 
@@ -174,6 +178,7 @@ place-content:center;
     justify-content: center;
      
    }
+   
    
    #firstsentense{
         font-size:42px;
